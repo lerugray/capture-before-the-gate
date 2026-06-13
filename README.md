@@ -17,11 +17,14 @@ The answer: you harvest the model's transcripts, distill decision records from t
 ## What is in this repository
 
 - **METHOD.md** — the repeatable five-step method, applicable to any gated or deprecated model
+- **OPERATING-DOCTRINE.md** — the transferable operating doctrine (the rules that carry over to the next model)
 - **corpus/SCHEMA.md** — the decision-record schema (JSONL, train-ready from day one)
 - **corpus/CURATION.md** — curation protocol for promoted (high-confidence) vs auto-distilled records
-- **corpus/** — the contributed decision-record corpus (see Contributing below)
+- **corpus/sample-records.jsonl** — **211 real decision records from the Fable 5 era**, scrubbed and genericized: no names, paths, keys, hostnames, or private project identifiers, with the decision and reasoning preserved. This is the worked corpus, not a toy.
+- **corpus/EXAMPLE-ENTRIES.md** — three invented, annotated records that teach the schema field-by-field
+- **CONTRIBUTING.md** — how to capture and contribute your own
 
-The worked example behind these documents is the Fable 5 era. The canonical reasoning framework those records enrich is public at [github.com/lerugray/hammerstein](https://github.com/lerugray/hammerstein) — a framework for adversarial strategic reasoning that the decision-record schema was designed to feed.
+The worked example behind these documents is the Fable 5 era. The 211 records in `corpus/sample-records.jsonl` are the real, scrubbed output of running this method on that era. The canonical reasoning framework those records enrich is public at [github.com/lerugray/hammerstein](https://github.com/lerugray/hammerstein) — a framework for adversarial strategic reasoning that the decision-record schema was designed to feed.
 
 ---
 
